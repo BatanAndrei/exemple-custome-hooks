@@ -1,5 +1,6 @@
 import WithUseClick from '../src/components/WithUseClick/WithUseClick';
 import WithUseConstructor from '../src/components/WithUseConstructor/WithUseConstructor';
+import WithUseFetch from '../src/components/WithUseFetch/WithUseFetch';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
         <>
             <WithUseClick/>
             <WithUseConstructor/>
+            <WithUseFetch/>
         </>
     );
 }
