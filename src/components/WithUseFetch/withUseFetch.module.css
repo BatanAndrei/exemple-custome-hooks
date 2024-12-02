@@ -6,3 +6,12 @@
     height: 300px;
     border-bottom: 3px solid;
 }
+
+.color {
+    color: red;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+}

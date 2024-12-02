@@ -1,13 +1,13 @@
 import { useEffect, useState, useRef } from "react";
 
 export default function useFetch(url, options) {
+
     const [isLoading, setLoading] = useState(true);
     const [response, setResponse] = useState(null);
     const [error, setError] = useState(null);
     const cache = useRef({});
     
     useEffect(() => {
-
         async function fetchData() {
 
             if(cache.current[url]) {
